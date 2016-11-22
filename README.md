@@ -1,5 +1,5 @@
 # kinetic_tls_bug
-Demonstartion of a bug regarding TLS connections to Seagate Kinetic disks
+Demonstration of a bug regarding TLS connections to Seagate Kinetic disks
 
 
 This repository is refers to:
@@ -15,7 +15,7 @@ Requirements: make, gcc, autoconf, a Seagate Kinetic disk (model ST4000NK0001)
 
 
 Utilizing the Kinetic C library and its TLS capability, the code in this repository shows that there seems to be a flaw in the disk's handling of TLS-encrypted messages.
-More precisely, if the message size in SSL_write() library call exceeds 14427 bytes, the disk (model ST4000NK0001) responds with an error message and terminates the session.
+More precisely, if the message size in the SSL_write() library call exceeds 14427 bytes, the disk (model ST4000NK0001) responds with an error message and terminates the session.
 
 The kinetic_client log will show this message:
 
