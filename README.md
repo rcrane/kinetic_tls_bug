@@ -37,6 +37,7 @@ Edit kintest.c at line 9 to set the IP address of the disk.
 make
 
 ./kintest (with bug)
+
 ./kintest_patched (without bug)
 
 
