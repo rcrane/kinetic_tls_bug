@@ -5,7 +5,9 @@ Demonstartion of a bug regarding TLS connections to Seagate Kinetic disks
 This repository is refers to:
 
 https://github.com/Kinetic/kinetic-c
+
 https://developers.seagate.com/display/KV/Development+Chassis
+
 http://www.seagate.com/files/www-content/product-content/hdd-fam/kinetic-hdd/en-us/docs/kinetic-ds1835-1-1110us.pdf
 
 
